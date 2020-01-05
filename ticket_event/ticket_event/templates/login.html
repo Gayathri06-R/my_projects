@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <title>Book Tickets Online for Your Favourite  Entertainment & Music Concerts in Bengaluru</title>
+<meta name="description" content="Book tickets online for all the happening and upcoming events today, tomorrow and weekend at events in Bengaluru">
+<meta name="keywords" content="Events in Bengaluru, Upcoming Events in Bengaluru, Weekend Events in Bengaluru, Today Events inBengaluru, Live in Music Concerts Bengaluru, Professional & Sports Events in Bengaluru" />
+<meta name="robots" content="index, follow">
+<meta name="author" content="events">
+ <link rel="stylesheet" href="https://d2tja3vroacx5n.cloudfront.net/css/owl.carousel.css"/>             
+ <link rel="stylesheet" href="https://d2tja3vroacx5n.cloudfront.net/css/custom/style.css"/>        
+ <link rel="stylesheet" href="https://d2tja3vroacx5n.cloudfront.net/css/custom/media-custom.css"/>        
+<link rel="stylesheet" href="https://d2tja3vroacx5n.cloudfront.net/css/custom/icon-style.css"/> 
+<style>
+        .logo-name{
+            padding: 25px 0;
+    font-size: 30px;
+    font-style: initial;}</style>               
+                       
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MRD9GQL');
+</script>                    
+</head>
+    <body class="inner-body ">
+        <script src="https://d2tja3vroacx5n.cloudfront.net/js/jquery.min.js"></script> 
+        <script src="https://d2tja3vroacx5n.cloudfront.net/js/owl.carousel.js"></script>
+    
+<header id="header">
+    <div class="header-block"> 
+        
+        <div class="header">
+            <div class="container"> 
+             
+                <div class="header-left float-l">
+                    <div class="logo-block"><a href="../index1.html"><img src="../assets/logo.jpg"height="45px" width="100px" alt="Events - Book Tickets Online"/></a></div>
+                    <div class="logo-name">EVENTS</div>
+                </div>
+               
+                <div class="header-right float-r">
+                    <ul class="list-unstyle">
+                <li><a href="login.html"><i class="sprite-icon icon-user"></i><span>Sign in</span></a></li>
+                 </ul>    
+                    <div class="main-search-grid">
+                        <div class="main-search"> <button class="search-btn"></button>
+                            <input id="autocomplete" class="search-input" placeholder="Search">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</header>
+<section class="container-wrapper">
+    <div class="contant-information-block">
+        <div class="container">
+            <div class="registration-block">
+                <p>Do not have an account? <a href="signup.html">Signup</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-form-block">
+                <div class="main-form-block-left login-form-block">
+                    <div class="form-block">
+                        <div class="form-block-left">
+                            <form method="post" accept-charset="utf-8" id="UserLoginForm" action="/users/login"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="_csrfToken" value="591d8f66c2e50950a7c70d85bffdbac1a3cf67b2496ef0065e9d52eba21b649b34af69a9620fc9c40a0e45aebd826f6063fa86d8815385e27299d31a1cb333ef"/></div>                            <ul>
+                                <li>
+                                    <div class="group">
+                                        <input type="text" name="email" required="required" autocomplete="off" id="email" value=""/>                                        <label>Email Address <strong  class="required_star">*</strong></label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="group">
+                                        <input type="password" name="password" required="required" autocomplete="off" id="password" value=""/>                                        <label>Password <strong  class="required_star">*</strong></label>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <label class="control control--checkbox">
+                                        Remember Me
+                                        <input type="checkbox" name="remember_me" >
+                                        <span class="control__indicator"></span>
+                                    </label>
+                                    <a href="forgotpassword.html">Forgot Password?</a>
+                                </li>
+                                <li>
+                                    <div class="submit-block">
+                                        <button type="submit" class="lg-button login_submit">login</button>                                    </div>
+                                </li>
+                            </ul>
+                            </form>                        </div>
+                        <div class="form-block-right">
+                            <div class="or-spacer"> <span><i>or</i></span></div>
+                            <div class="form-inner-block">
+                                <h4>Sign In with</h4>
+                                <!--<a href="/auth/facebook" class="fb-button">Facebook</a>-->
+                                <a href="/auth/google" class="google-button">Google+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<script src="https://d2tja3vroacx5n.cloudfront.net/js/jquery.validate.min.js"></script>
+<script>
+    $(document).ready(function () {
+        setInterval(function () {
+            if ($("#email").val() != "") {
+                $("#email").addClass("hasdata");
+            }
+            if ($('#password').val().length != "") {
+                $('#password').addClass('hasdata');
+            }
+        }, 500);
+        $(".login_submit").click(function () {
+            var form = $("#UserLoginForm");
+            form.validate({
+                rules: {
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                    }
+                },
+                messages: {
+                    email: "Please enter a valid email address",
+                    password: {
+                        required: "Please enter password"
+                    }
+                }
+            });
+            var isValid = form.valid();
+            if (isValid) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+    });
+</script>      
+     </body>
+</html>
